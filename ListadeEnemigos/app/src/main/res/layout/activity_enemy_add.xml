@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageIV"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="111dp"
+        android:background="@drawable/marcofoto"/>
+
+
+
+    <TextView
+        android:id="@+id/nombreTV"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Nombre:"
+        android:textSize="25dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorBlack"/>
+
+    <EditText
+        android:id="@+id/nombreET"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="150dp"
+        android:hint="Nombre"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:maxLength="14"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/motivoTV"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Motivo:"
+        android:textSize="25dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="@color/colorBlack"
+        android:maxLines="1"/>
+
+    <EditText
+        android:id="@+id/motivoET"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="140dp"
+        android:hint="Motivo"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:maxLines="1"
+        android:maxLength="14"/>
+
+    <TextView
+        android:id="@+id/nivelDeOdio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:text="Nivel de odio"
+        android:textColor="@color/colorBlack"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="350dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="475dp"
+        android:max="5"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/addEnemy"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colorPrimary"
+        android:text="Añandir Enemigo"
+        android:textColor="@color/colorWhite" />
+
+</RelativeLayout>

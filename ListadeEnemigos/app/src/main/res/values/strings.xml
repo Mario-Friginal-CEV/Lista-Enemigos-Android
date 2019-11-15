@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lista de Enemigos</string>
+    <string-array name="screens">
+        <item>Lista Enemigos</item>
+        <item>Añadir Enemigo</item>
+        <item>Top 5 Enemigos</item>
+    </string-array>
+    <string name="abrir_menu">Abrir menú</string>
+    <string name="cerrar_menu">Cerrar menú</string>
+    <string-array name="enemies"></string-array>
+</resources>
